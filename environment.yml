@@ -60,7 +60,6 @@ dependencies:
 - dask
 - dask-core
 - datashape
-- dbus
 - decorator
 - distributed
 - docutils
@@ -73,13 +72,10 @@ dependencies:
 - gevent
 - glib
 - glob2
-- gmp
 - gmpy2
 - graphite2
 - greenlet
 - gsl
-- gst-plugins-base
-- gstreamer
 - h5py
 - hdf5
 - heapdict
@@ -91,7 +87,6 @@ dependencies:
 - ipython_genutils
 - ipywidgets
 - isort
-- jbig
 - jdcal
 - jedi
 - jinja2
@@ -104,7 +99,6 @@ dependencies:
 - libboost
 - libffi
 - libgdal
-- libgfortran-ng
 - libkml
 - libpng
 - libpq
@@ -125,7 +119,6 @@ dependencies:
 - mkl-service
 - nbconvert
 - nbformat
-- ncurses
 - networkx
 - nltk
 - nose
@@ -165,7 +158,6 @@ dependencies:
 - r-rcpp
 - r-rlang
 - r-tibble
-- readline
 - requests
 - rope
 - rpy2
@@ -190,24 +182,32 @@ dependencies:
 - holoviews
 - pip:
   - autopep8
+  - gst-plugins-base
   - backports.shutil-get-terminal-size
   - bash-kernel
   - coverage
   - cssselect
   - et-xmlfile
+  - jbig
+  - gmp
   - flake8
   - ipython-genutils
   - ipythonblocks
   - jupyter-client
   - jupyter-console
+  - gstreamer
   - jupyter-core
   - jupyterlab-launcher
   - line-profiler
+  - dbus
+  - libgfortran-ng
   - memory-profiler
   - prompt-toolkit
   - pydub
+  - ncurses
   - pypandoc
   - pytest-cov
   - ruamel-yaml
+  - readline
   - smopy
   - tables
